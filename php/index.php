@@ -24,19 +24,5 @@
     <a href="after_hours.php">AFTER HOURS</a>
     <a href="dawnFM.php">DAWN FM</a>
 </div>
-    <?php $albums = array (
-        "House Of Balloons",
-        "Thursday",
-        "Echoes Of Silence",
-        "Kiss Land",
-        "Beauty Behind The Madness",
-        "Starboy",
-        "My Dear Melancholy,",
-        "After Hours",
-        "Dawn FM"
-        ); ?>
-    <?php foreach($albums as $album) { ?>
-    <li> <?php echo $album ?> </li>
-    <?php } ?>
 </body>
 </html>
