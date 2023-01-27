@@ -20,14 +20,6 @@
         src = "https://images.squarespace-cdn.com/content/558b1305e4b0fa1db7e46ace/1449186262223-3VHPIHZRJC6QZVTNVJAA/image-asset.jpeg?content-type=image%2Fjpeg"
         border = "3" alt = "hob">
     </div>
-
-    <ul>
-
-            foreach ($song_playlist as $song) {
-                echo '<li>'.$song.'</li>';
-            }
-        ?>
-    </ul>
     <ol>
         <?php $song_playlist = [
             "../music/High For This.mp3",
@@ -41,9 +33,9 @@
             "../music/The Knowing.mp3",
             "../music/Twenty Eight.mp3"
         ];
-        $i = 0;
+        $i = 1;
         foreach ($song_playlist as $song) {
-            echo '<li><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'- '.$song.'</li>';
+            echo '<li class = "song-text"><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'- '.$song.'</li>';
             $i++;
         }
         ?>
