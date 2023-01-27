@@ -1,0 +1,60 @@
+
+h1 {
+    text-align:center;
+    font-size:32px;
+    color:black;
+}
+h2 {
+    text-align:left;
+    font-size:18px;
+}
+
+.bgimage {
+    background-image: url('https://wallpaperaccess.com/full/2848494.jpg');
+}
+
+.bgimage-dawn {
+    background-image: url('https://wallpaperaccess.com/full/265921.jpg');
+}
+
+.bgimage-ah {
+    background-image: url('https://media.vogue.fr/photos/5e7e111b8c3f5f00087ada41/master/pass/TheWeeknd-vogue-23march20-Nabil.jpg');
+}
+
+.bgcolor {
+    background-color:black;
+}
+
+.bgcolor2 {
+    background-color:#672a1f;
+}
+
+.bgcolor3 {
+    background-color:#19647E;
+}
+
+.topnav {
+
+    overflow:hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: white;
+
+}
+
