@@ -1,9 +1,9 @@
 
 <?php
-    $albums = array (
+    $albums = [
         'HOUSE OF BALLOONS', 'THURSDAY', 'ECHOES OF SILENCE', 'KISS LAND', 'BEAUTY BEHIND THE MADNESS',
         'STARBOY', 'MY DEAR MELANCHOLY', 'AFTER HOURS', 'DAWN FM'
-    );
+    ];
     $title = "The Weeknd's Discography";
 ?>
 
