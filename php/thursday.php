@@ -38,6 +38,7 @@
         <div class="topnav">
             <a href="index.php">HOME</a>
         </div>
+        <img class ="img_thursday">
     </div>
     <ul>
         <?php
