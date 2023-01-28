@@ -1,3 +1,26 @@
+
+<?php
+    $i = 1;
+    $song_playlist = [
+        "../music/Lonely Star.mp3",
+        "../music/Life Of The Party.mp3",
+        "../music/Thursday.mp3",
+        "../music/The Zone.mp3",
+        "../music/The Birds Pt. 1.mp3",
+        "../music/The Birds Pt. 2.mp3",
+        "../music/Coming Down.mp3",
+        "../music/Rolling Stone.mp3",
+        "../music/Heaven Or Las Vegas.mp3",
+    ];
+    $song_titles = [];
+    $song_files = [];
+
+    foreach ($song_playlist as $song) {
+        $song_titles[] = str_replace("../music/", "", $song);
+        $song_files[] = $song;
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,20 +34,19 @@
 </head>
 
 <body class = "bgcolor">
-<center>
     <div class = "background-animation-thursday">
         <div class="topnav">
-            <a href="naslovna.html">HOME</a>
-        </div>
-
-        <img style="vertical-align:middle;margin:50px" width = "400" height = "400"
-             src = "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Weeknd_-_Thursday.png">
-        <div id="music_list">
-            <audio controls autoplay></audio>
+            <a href="index.php">HOME</a>
         </div>
     </div>
-</center>
-
-<script src = "js/playlist_thursday.js"></script>
+    <ul>
+        <?php
+            foreach ($song_files as $song) {
+                $song_title = $song_titles[array_search($song, $song_files)];
+                echo '<li class = "song-text"><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                $i++;
+            }
+        ?>
+    </ul>
 </body>
 </html>

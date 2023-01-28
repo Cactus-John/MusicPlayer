@@ -2,7 +2,7 @@
 h1 {
     text-align:center;
     font-size:32px;
-    color:black;
+    color:red;
 }
 h2 {
     text-align:left;
@@ -62,3 +62,31 @@ h2 {
     color: blue;
 }
 
+ul {
+    list-style: none;
+}
+
+.img_hob {
+    align-content: center;
+    margin: 50px;
+    width: 400px;
+    height: 400px;
+    content: url("https://images.squarespace-cdn.com/content/558b1305e4b0fa1db7e46ace/1449186262223-3VHPIHZRJC6QZVTNVJAA/image-asset.jpeg?content-type=image%2Fjpeg");
+    border-bottom: 3px;
+    alt: "hob";
+}
+
+.img_thursday {
+    vertical-align: middle;
+    horiz-align: center;
+    margin: 50px;
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/d/dd/The_Weeknd_-_Thursday.png");
+    border-bottom: 3px;
+    alt: "thursday";
+}
+
+audio {
+    align-items: center;
+}
