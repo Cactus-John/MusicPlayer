@@ -32,18 +32,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOUSE OF BALLOONS</title>
+    <title>AFTER HOURS</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
 </head>
 
 <body class = "bgcolor">
-    <div class = "img-animation-hob">
         <div class="topnav">
             <a href="index.php">HOME</a>
         </div>
-        <img class = "img_hob">
-    </div>
+        <img class = "img_afterhours">
+
     <ul>
         <?php
             foreach ($song_files as $song) {
@@ -52,6 +51,6 @@
                 $i++;
             }
         ?>
-        // add css
     </ul>
 </body>
+</html>

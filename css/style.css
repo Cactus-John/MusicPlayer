@@ -66,6 +66,10 @@ ul {
     list-style: none;
 }
 
+audio {
+    align-content: center;
+}
+
 .img_hob {
     align-content: center;
     margin: 50px;
@@ -73,7 +77,6 @@ ul {
     height: 400px;
     content: url("https://images.squarespace-cdn.com/content/558b1305e4b0fa1db7e46ace/1449186262223-3VHPIHZRJC6QZVTNVJAA/image-asset.jpeg?content-type=image%2Fjpeg");
     border-bottom: 3px;
-    alt: "hob";
 }
 
 .img_thursday {
@@ -84,11 +87,46 @@ ul {
     height: 400px;
     content: url("https://upload.wikimedia.org/wikipedia/en/d/dd/The_Weeknd_-_Thursday.png");
     border-bottom: 3px;
-    alt: "thursday";
 }
 
-audio {
-    align-content: center;
+.img_eos {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/3/34/The_Weeknd_-_Echoes_of_Silence.png");
 }
 
-<!--> add css
+.img_kissland {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/e/ed/The_Weeknd_-_Kiss_Land.png");
+}
+
+.img_bbtm {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/b/bd/The_Weeknd_-_Beauty_Behind_the_Madness.png");
+}
+
+.img_starboy {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png");
+}
+
+.img_mdm {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/MyDearMelancholy_-_album_by_The_Weeknd.jpg/220px-MyDearMelancholy_-_album_by_The_Weeknd.jpg");
+}
+
+.img_dawn {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/b/b9/The_Weeknd_-_Dawn_FM.png");
+}
+
+.img_afterhours {
+    width: 400px;
+    height: 400px;
+    content: url("https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png");
+}
