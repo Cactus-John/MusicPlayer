@@ -39,5 +39,5 @@
 .img-animation-hob {
     background-image: url('https://wallpapercave.com/wp/wp8696975.jpg');
     animation: blink 1s;
-    animation-iteration-count: 2s;
+    animation-iteration-count: inherit;
 }

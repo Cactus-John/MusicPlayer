@@ -1,9 +1,9 @@
-
 h1 {
     text-align:center;
     font-size:32px;
-    color:red;
+    color: red;
 }
+
 h2 {
     text-align:left;
     font-size:18px;
@@ -22,44 +22,46 @@ h2 {
 }
 
 .bgcolor {
-    background-color:black;
+    background-color: #000000;
 }
 
 .bgcolor2 {
-    background-color:#672a1f;
+    background-color: #672a1f;
 }
 
 .bgcolor3 {
-    background-color:#19647E;
+    background-color: #19647E;
+}
+
+.bgcolor-bbtm {
+    background-color: #7B8FA1;
+}
+
+.bgcolor-eos {
+    background: linear-gradient(45deg, red, black);
 }
 
 .topnav {
-
     overflow:hidden;
-    background-color: #333;
+    background: linear-gradient(rebeccapurple, darkred, salmon);
 }
 
 .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background: linear-gradient(to right, #1095c1, yellow, green);
+    transition: background 0.3s ease-out;
 }
 
 .topnav a.active {
     background-color: white;
-
-}
-
-.song-text {
-    color: blue;
 }
 
 ul {
@@ -70,63 +72,18 @@ audio {
     align-content: center;
 }
 
-.img_hob {
-    align-content: center;
-    margin: 50px;
-    width: 400px;
-    height: 400px;
-    content: url("https://images.squarespace-cdn.com/content/558b1305e4b0fa1db7e46ace/1449186262223-3VHPIHZRJC6QZVTNVJAA/image-asset.jpeg?content-type=image%2Fjpeg");
-    border-bottom: 3px;
+.song-text {
+    color: #dddddd;
+    font-style: oblique;
 }
 
-.img_thursday {
-    vertical-align: middle;
-    horiz-align: center;
-    margin: 50px;
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/d/dd/The_Weeknd_-_Thursday.png");
-    border-bottom: 3px;
+.song-text-dawn {
+    color: #672a1f;
+    font-style: oblique;
 }
 
-.img_eos {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/3/34/The_Weeknd_-_Echoes_of_Silence.png");
-}
-
-.img_kissland {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/e/ed/The_Weeknd_-_Kiss_Land.png");
-}
-
-.img_bbtm {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/b/bd/The_Weeknd_-_Beauty_Behind_the_Madness.png");
-}
-
-.img_starboy {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png");
-}
-
-.img_mdm {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/MyDearMelancholy_-_album_by_The_Weeknd.jpg/220px-MyDearMelancholy_-_album_by_The_Weeknd.jpg");
-}
-
-.img_dawn {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/b/b9/The_Weeknd_-_Dawn_FM.png");
-}
-
-.img_afterhours {
-    width: 400px;
-    height: 400px;
-    content: url("https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png");
+.audio-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }

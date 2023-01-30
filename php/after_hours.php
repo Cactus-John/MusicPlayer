@@ -34,12 +34,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AFTER HOURS</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-images.css.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
 </head>
 
 <body class = "bgcolor">
         <div class="topnav">
             <a href="index.php">HOME</a>
+            <h1>AFTER HOURS</h1>
         </div>
         <img class = "img_afterhours">
 
@@ -47,7 +49,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text"><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>

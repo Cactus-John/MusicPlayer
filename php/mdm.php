@@ -26,12 +26,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KISS LAND</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-images.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
 </head>
 
 <body>
     <div class="topnav">
         <a href="index.php">HOME</a>
+        <h1>MY DEAR MELANCHOLY,</h1>
     </div>
 
     <img class = "img_mdm">
@@ -40,7 +42,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text"><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>

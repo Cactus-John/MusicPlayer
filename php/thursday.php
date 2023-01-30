@@ -8,9 +8,10 @@
         "../music/The Zone.mp3",
         "../music/The Birds Pt. 1.mp3",
         "../music/The Birds Pt. 2.mp3",
-        "../music/Coming Down.mp3",
+        "../music/Gone.mp3",
         "../music/Rolling Stone.mp3",
         "../music/Heaven Or Las Vegas.mp3",
+        "../music/Valerie.mp3",
     ];
     $song_titles = [];
     $song_files = [];
@@ -29,14 +30,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THURSDAY</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-images.css">
     <link rel="stylesheet" href="../css/animation.css">
-
 </head>
 
 <body class = "bgcolor">
     <div class = "background-animation-thursday">
         <div class="topnav">
             <a href="index.php">HOME</a>
+            <h1>THURSDAY</h1>
         </div>
         <img class ="img_thursday">
     </div>
@@ -44,7 +46,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text"><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>
