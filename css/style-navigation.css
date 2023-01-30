@@ -1,0 +1,45 @@
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(rebeccapurple, darkred, salmon);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background: linear-gradient(to right, #1095c1, yellow, green);
+    transition: background 0.3s ease-out;
+}
+
+.topnav a.active {
+    background-color: white;
+}
+
+.kissland-navbar{
+    overflow: hidden;
+    background: linear-gradient(to right, #1095c1, yellow, green);
+}
+
+.kissland-navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.kissland-navbar a:hover {
+    background: linear-gradient(to right, #1095c1, yellow, green);
+    transition: background 0.3s ease-out;
+}
+
+.kissland-navbar a.active {
+    background-color: white;
+}

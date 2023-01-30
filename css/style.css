@@ -9,18 +9,6 @@ h2 {
     font-size:18px;
 }
 
-.bgimage {
-    background-image: url('https://wallpaperaccess.com/full/2848494.jpg');
-}
-
-.bgimage-dawn {
-    background-image: url('https://wallpaperaccess.com/full/265921.jpg');
-}
-
-.bgimage-ah {
-    background-image: url('https://media.vogue.fr/photos/5e7e111b8c3f5f00087ada41/master/pass/TheWeeknd-vogue-23march20-Nabil.jpg');
-}
-
 .bgcolor {
     background-color: #000000;
 }
@@ -41,45 +29,60 @@ h2 {
     background: linear-gradient(45deg, red, black);
 }
 
-.topnav {
-    overflow:hidden;
-    background: linear-gradient(rebeccapurple, darkred, salmon);
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.topnav a:hover {
-    background: linear-gradient(to right, #1095c1, yellow, green);
-    transition: background 0.3s ease-out;
-}
-
-.topnav a.active {
-    background-color: white;
+.bgcolor-kissland {
+    background: linear-gradient(to right, black, green);
 }
 
 ul {
     list-style: none;
 }
 
-audio {
-    align-content: center;
+.song-text-hob {
+    color: #A2A3BB;
+    font-style: oblique;
+    font-family: Verdana;
 }
 
-.song-text {
-    color: #dddddd;
+.song-text-thursday {
+    color: #F7EF81;
     font-style: oblique;
+    font-family: Verdana;
+}
+
+.song-text-eos {
+    color: #FFFFFF;
+    font-style: oblique;
+    font-family: Verdana;
+}
+
+.song-text-kissland {
+    color: #FFFFFF;
+    font-style: oblique;
+    font-family: Verdana;
+}
+
+.song-text-bbtm {
+    color: #FFFFFF;
+    font-style: oblique;
+    font-family: Verdana;
+}
+
+.song-text-mdm {
+    color: #672a1f;
+    font-style: oblique;
+    font-family: Verdana;
+}
+
+.song-text-ah {
+    color: #672a1f;
+    font-style: oblique;
+    font-family: Verdana;
 }
 
 .song-text-dawn {
     color: #672a1f;
     font-style: oblique;
+    font-family: Verdana;
 }
 
 .audio-container {

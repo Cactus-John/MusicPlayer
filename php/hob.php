@@ -4,7 +4,7 @@
     $song_playlist = [
         "../music/High For This.mp3",
         "../music/What You Need.mp3",
-        "../music/HouseOfBalloons_GlassTableGirls.mp3",
+        "../music/House Of Balloons-Glass Table Girls.mp3",
         "../music/The Morning.mp3",
         "../music/Wicked Games.mp3",
         "../music/The Party & The After Party.mp3",
@@ -46,7 +46,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-hob"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>

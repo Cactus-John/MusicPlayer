@@ -7,7 +7,6 @@
     $title = "The Weeknd's Discography";
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE WEEKND'S PLAYLIST</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-images.css">
 </head>
 
 <body class="bgimage">

@@ -39,6 +39,7 @@
     <title>STARBOY</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
 </head>
 
@@ -54,7 +55,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-starboy"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>

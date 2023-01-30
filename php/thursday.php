@@ -29,9 +29,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THURSDAY</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
-    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
 </head>
 
 <body class = "bgcolor">
@@ -46,7 +47,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-thursday"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>

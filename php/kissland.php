@@ -30,11 +30,12 @@
     <title>KISS LAND</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
 </head>
 
-<body>
-    <div class="topnav">
+<body class = "bgcolor-kissland">
+    <div class="kissland-navbar">
         <a href="index.php">HOME</a>
         <h1>KISS LAND</h1>
     </div>
@@ -45,7 +46,7 @@
         <?php
             foreach ($song_files as $song) {
                 $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                echo '<li class = "song-text-kissland"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
                 $i++;
             }
         ?>
