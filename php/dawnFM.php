@@ -1,33 +1,3 @@
-
-<?php
-    $i = 1;
-    $song_playlist = [
-        "../music/Dawn FM.mp3",
-        "../music/Gasoline.mp3",
-        "../music/How Do I Make You Love Me.mp3",
-        "../music/Take My Breath.mp3",
-        "../music/Sacrifice.mp3",
-        "../music/A Tale By Quincy.mp3",
-        "../music/Out Of Time.mp3",
-        "../music/Here We Go Again.mp3",
-        "../music/Best Friends.mp3",
-        "../music/Is There Someone Else.mp3",
-        "../music/Starry Eyes.mp3",
-        "../music/Every Angel is Terrifying.mp3",
-        "../music/Dont Break My Heart.mp3",
-        "../music/I Heard You're Married.mp3",
-        "../music/Less Than Zero.mp3",
-        "../music/Phantom Regret By Jim.mp3"
-    ];
-    $song_titles = [];
-    $song_files = [];
-
-    foreach ($song_playlist as $song) {
-        $song_titles[] = str_replace("../music/", "", $song);
-        $song_files[] = $song;
-    }
-?>
-
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -38,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
     <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
-    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-animation.css">
 </head>
 
 <body class = "bgimage-dawn">
@@ -48,15 +18,55 @@
     </div>
 
     <img class ="img_dawn">
+    <div class="player">
+        <div class="wrapper">
+            <div class="details">
+                <div class="now-playing">PLAYING x OF y</div>
+                <div class="track-art"></div>
+                <div class="track-name">Track Name</div>
+                <div class="track-artist">Track Artist</div>
+            </div>
 
-    <ul>
-        <?php
-            foreach ($song_files as $song) {
-                $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-dawn"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
-                $i++;
-            }
-        ?>
-    </ul>
+            <div class="slider_container">
+                <div class="current-time">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                <div class="total-duration">00:00</div>
+            </div>
+
+            <div class="slider_container">
+                <i class="fa fa-volume-down"></i>
+                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                <i class="fa fa-volume-up"></i>
+            </div>
+
+            <div class="buttons">
+                <div class="random-track" onclick="randomTrack()">
+                    <i class="fas fa-random fa-2x" title="random"></i>
+                </div>
+                <div class="prev-track" onclick="prevTrack()">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                </div>
+                <div class="playpause-track" onclick="playpauseTrack()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                </div>
+                <div class="next-track" onclick="nextTrack()">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                </div>
+                <div class="repeat-track" onclick="repeatTrack()">
+                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                </div>
+            </div>
+
+            <div id="wave">
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

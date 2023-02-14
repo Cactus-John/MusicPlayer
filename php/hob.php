@@ -1,27 +1,3 @@
-
-<?php
-    $i = 1;
-    $song_playlist = [
-        "../music/High For This.mp3",
-        "../music/What You Need.mp3",
-        "../music/House Of Balloons-Glass Table Girls.mp3",
-        "../music/The Morning.mp3",
-        "../music/Wicked Games.mp3",
-        "../music/The Party & The After Party.mp3",
-        "../music/Coming Down.mp3",
-        "../music/Loft Music.mp3",
-        "../music/The Knowing.mp3",
-        "../music/Twenty Eight.mp3"
-    ];
-    $song_titles = [];
-    $song_files = [];
-
-    foreach ($song_playlist as $song) {
-        $song_titles[] = str_replace("../music/", "", $song);
-        $song_files[] = $song;
-    }
-?>
-
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -30,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOUSE OF BALLOONS</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src = "../js/playlist.js" defer></script>
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
     <link rel="stylesheet" type="text/css" href="../css/style-animation.css">
     <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
+
 </head>
 
 <body class = "bgcolor">
@@ -44,17 +22,53 @@
         <img class = "img_hob">
     </div>
     <div class="player">
-        <audio id="music" controls>
-            <source src="audio/song1.mp3" type="audio/mpeg">
-        </audio>
-        <div class="playlist">
-            <?php
-                foreach ($song_files as $song) {
-                    $song_title = $song_titles[array_search($song, $song_files)];
-                    echo '<li class = "song-text-hob"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
-                    $i++;
-                }
-            ?>
+        <div class="wrapper">
+            <div class="details">
+                <div class="now-playing">PLAYING x OF y</div>
+                <div class="track-art"></div>
+                <div class="track-name">Track Name</div>
+                <div class="track-artist">Track Artist</div>
+            </div>
+
+            <div class="slider_container">
+                <div class="current-time">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                <div class="total-duration">00:00</div>
+            </div>
+
+            <div class="slider_container">
+                <i class="fa fa-volume-down"></i>
+                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                <i class="fa fa-volume-up"></i>
+            </div>
+
+            <div class="buttons">
+                <div class="random-track" onclick="randomTrack()">
+                    <i class="fas fa-random fa-2x" title="random"></i>
+                </div>
+                <div class="prev-track" onclick="prevTrack()">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                </div>
+                <div class="playpause-track" onclick="playpauseTrack()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                </div>
+                <div class="next-track" onclick="nextTrack()">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                </div>
+                <div class="repeat-track" onclick="repeatTrack()">
+                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                </div>
+            </div>
+
+            <div id="wave">
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+            </div>
         </div>
     </div>
 </body>
