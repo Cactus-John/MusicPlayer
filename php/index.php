@@ -1,14 +1,28 @@
+<?php
+session_start();
 
+$inactive = 500;
+
+if (isset($_SESSION["timeout"])) {
+    $sessionTTL = time() - $_SESSION["timeout"];
+    if ($sessionTTL > $inactive) {
+        session_destroy();
+        header("Location: /index.php");
+    }
+}
+$_SESSION["timeout"] = time();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
 <?php
     $albums = [
         'HOUSE OF BALLOONS', 'THURSDAY', 'ECHOES OF SILENCE', 'KISS LAND', 'BEAUTY BEHIND THE MADNESS',
         'STARBOY', 'MY DEAR MELANCHOLY', 'AFTER HOURS', 'DAWN FM'
     ];
     $title = "The Weeknd's Discography";
-?>
 
-<!DOCTYPE html>
-<html lang="en">
+?>
 
 <head>
     <meta charset="UTF-8">

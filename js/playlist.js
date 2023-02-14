@@ -22,61 +22,61 @@ let updateTimer;
 
 const music_list_hob = [
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'High For This',
         artist : 'The Weeknd',
         music : '../music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'What You Need',
         artist : 'The Weeknd',
         music : '../music/What You Need.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'House Of Balloons/Glass Table Girls',
         artist : 'The Weeknd',
         music : '../music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
+        img : '',
         name : 'The Morning',
         artist : 'Alan Walker',
         music : '../music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
+        img : '',
         name : 'Wicked Games',
         artist : 'The Weeknd',
         music : '../music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'The Party & The After Party',
         artist : 'The Weeknd',
         music : '../music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'Coming Down',
         artist : 'The Weeknd',
         music : '../music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'Loft Music',
         artist : 'The Weeknd',
         music : '../music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'The Knowing',
         artist : 'The Weeknd',
         music : '../music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
+        img : '',
         name : 'Twenty Eight',
         artist : 'The Weeknd',
         music : '../music/Twenty Eight.mp3'
@@ -85,44 +85,44 @@ const music_list_hob = [
 
 const music_list_thursday = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
@@ -142,56 +142,56 @@ const music_list_thursday = [
 
 const music_list_eos = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Twenty Eight.mp3'
     },
@@ -199,56 +199,56 @@ const music_list_eos = [
 
 const music_list_kissland = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Twenty Eight.mp3'
     },
@@ -256,56 +256,56 @@ const music_list_kissland = [
 
 const music_list_bbtm = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/Twenty Eight.mp3'
     },
@@ -313,56 +313,56 @@ const music_list_bbtm = [
 
 const music_list_starboy = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : ' ',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Twenty Eight.mp3'
     },
@@ -370,113 +370,83 @@ const music_list_starboy = [
 
 const music_list_mdm = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
-    },
-    {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'The Weeknd',
-        music : 'music/The Party & The After Party.mp3'
-    },
-    {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'The Weeknd',
-        music : 'music/Coming Down.mp3'
-    },
-    {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'The Weeknd',
-        music : 'music/Loft Music.mp3'
-    },
-    {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'The Weeknd',
-        music : 'music/The Knowing.mp3'
-    },
-    {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'The Weeknd',
-        music : 'music/Twenty Eight.mp3'
     },
 ];
 
 const music_list_ah = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Twenty Eight.mp3'
     },
@@ -484,56 +454,56 @@ const music_list_ah = [
 
 const music_list_dawnFM = [
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/High For This.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/House Of Balloons-Glass Table Girls.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
+        img : '',
+        name : '',
+        artist : 'The Weeknd',
         music : 'music/The Morning.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Wicked Games.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Party & The After Party.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Coming Down.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Loft Music.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/The Knowing.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
+        img : '',
+        name : '',
         artist : 'The Weeknd',
         music : 'music/Twenty Eight.mp3'
     },
