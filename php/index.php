@@ -42,7 +42,7 @@
             as well as the relative anonymity of the singer-songwriter. House of Balloons was entirely recorded in Toronto, with production handled primarily by The Weeknd,
             Doc McKinney, Illangelo, and Cirkut. The Weeknd would later collaborate with McKinney and Illangelo on several future releases. Its title is derived from the nickname
             the singer gave to his former home in Parkdale, Toronto. The mixtape received widespread acclaim, with critics praising its dark aesthetic, production, and lyrical content.
-            It is widely regarded as a major influence on both contemporary and alternative R&B.[4] House of Balloons also contains elements of soul, trip hop, indie rock, dream pop,
+            It is widely regarded as a major influence on both contemporary and alternative R&B. House of Balloons also contains elements of soul, trip hop, indie rock, dream pop,
             and electronic music.[5] Lyrically, the mixtape explores the Weeknd's drug use and experiences with love, heartbreak, and promiscuity. House of Balloons was commercially
             released as part of the compilation album Trilogy (2012) and included the singles "Wicked Games" and "Twenty Eight", the latter of which is a bonus track. On its tenth
             anniversary, the original mixtape was released in digital formats, and included samples which failed to gain copyright clearance on Trilogy. The reissue was accompanied

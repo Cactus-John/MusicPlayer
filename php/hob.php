@@ -43,14 +43,19 @@
         </div>
         <img class = "img_hob">
     </div>
-    <ul>
-        <?php
-            foreach ($song_files as $song) {
-                $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-hob"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
-                $i++;
-            }
-        ?>
-    </ul>
+    <div class="player">
+        <audio id="music" controls>
+            <source src="audio/song1.mp3" type="audio/mpeg">
+        </audio>
+        <div class="playlist">
+            <?php
+                foreach ($song_files as $song) {
+                    $song_title = $song_titles[array_search($song, $song_files)];
+                    echo '<li class = "song-text-hob"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+                    $i++;
+                }
+            ?>
+        </div>
+    </div>
 </body>
 </html>
