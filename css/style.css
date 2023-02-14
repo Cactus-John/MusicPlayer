@@ -9,6 +9,26 @@ h2 {
     font-size:18px;
 }
 
+h3 {
+    position: relative;
+    left: 10px;
+    font-size: 32px;
+    color: wheat;
+}
+
+p {
+    font-family: Verdana;
+    font-style: revert;
+}
+
+.section-hob {
+    background-image: linear-gradient(rosybrown, royalblue, gainsboro);
+}
+
+.section-thursday {
+    background-image: linear-gradient(silver, coral, lightsalmon);
+}
+
 .bgcolor {
     background-color: #000000;
 }
@@ -59,6 +79,9 @@ ul {
     color: #FFFFFF;
     font-style: oblique;
     font-family: Verdana;
+    position: relative;
+    left: 22px;
+    align-content: center;
 }
 
 .song-text-bbtm {

@@ -31,7 +31,8 @@
     <title>HOUSE OF BALLOONS</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
-    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-animation.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
 </head>
 
 <body class = "bgcolor">

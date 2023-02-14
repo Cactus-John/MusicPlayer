@@ -1,3 +1,4 @@
+
 <?php
     $i = 1;
     $song_playlist = [
@@ -32,6 +33,16 @@
     <link rel="stylesheet" type="text/css" href="../css/style-images.css">
     <link rel="stylesheet" type="text/css" href="../css/style-navigation.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
+    <style>
+        #player {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        audio {
+            width: 50%;
+        }
+    </style>
 </head>
 
 <body class = "bgcolor-kissland">
@@ -44,11 +55,11 @@
 
     <ul>
         <?php
-            foreach ($song_files as $song) {
-                $song_title = $song_titles[array_search($song, $song_files)];
-                echo '<li class = "song-text-kissland"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
-                $i++;
-            }
+        foreach ($song_files as $song) {
+            $song_title = $song_titles[array_search($song, $song_files)];
+            echo '<li class = "song-text-kissland"><audio class = "audio-container" controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+            $i++;
+        }
         ?>
     </ul>
 </body>
