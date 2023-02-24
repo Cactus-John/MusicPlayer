@@ -11,6 +11,26 @@ if (isset($_SESSION["timeout"])) {
     }
 }
 $_SESSION["timeout"] = time();
+
+$song_playlist = [
+    "../music/Lonely Star.mp3",
+    "../music/Life Of The Party.mp3",
+    "../music/Thursday.mp3",
+    "../music/The Zone.mp3",
+    "../music/The Birds Pt. 1.mp3",
+    "../music/The Birds Pt. 2.mp3",
+    "../music/Coming Down.mp3",
+    "../music/Rolling Stone.mp3",
+    "../music/Heaven Or Las Vegas.mp3",
+];
+
+$song_titles = [];
+$song_files = [];
+
+foreach ($song_playlist as $song) {
+    $song_titles[] = str_replace("../music/", "", $song);
+    $song_files[] = $song;
+}
 ?>
 
 <!DOCTYPE html>
@@ -34,55 +54,12 @@ $_SESSION["timeout"] = time();
         </div>
         <img class ="img_thursday">
     </div>
-    <div class="player">
-        <div class="wrapper">
-            <div class="details">
-                <div class="now-playing">PLAYING x OF y</div>
-                <div class="track-art"></div>
-                <div class="track-name">Track Name</div>
-                <div class="track-artist">Track Artist</div>
-            </div>
-
-            <div class="slider_container">
-                <div class="current-time">00:00</div>
-                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-                <div class="total-duration">00:00</div>
-            </div>
-
-            <div class="slider_container">
-                <i class="fa fa-volume-down"></i>
-                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-                <i class="fa fa-volume-up"></i>
-            </div>
-
-            <div class="buttons">
-                <div class="random-track" onclick="randomTrack()">
-                    <i class="fas fa-random fa-2x" title="random"></i>
-                </div>
-                <div class="prev-track" onclick="prevTrack()">
-                    <i class="fa fa-step-backward fa-2x"></i>
-                </div>
-                <div class="playpause-track" onclick="playpauseTrack()">
-                    <i class="fa fa-play-circle fa-5x"></i>
-                </div>
-                <div class="next-track" onclick="nextTrack()">
-                    <i class="fa fa-step-forward fa-2x"></i>
-                </div>
-                <div class="repeat-track" onclick="repeatTrack()">
-                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
-                </div>
-            </div>
-
-            <div id="wave">
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-            </div>
-        </div>
-    </div>
+    <?php $i = 1;
+    foreach ($song_files as $song) {
+        $song_title = $song_titles[array_search($song, $song_files)];
+        echo '<li class = "song-text-hob"><audio controls><source src="'.$song.'" type="audio/mpeg"></audio>'.$i.'. - '.$song_title.'</li>';
+        $i++;
+    }
+    ?>
 </body>
 </html>

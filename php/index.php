@@ -62,8 +62,10 @@ $_SESSION["timeout"] = time();
             anniversary, the original mixtape was released in digital formats, and included samples which failed to gain copyright clearance on Trilogy. The reissue was accompanied
             by a limited edition line of merchandise designed by architect Daniel Arsham.
         </p>
-    </section>
 
+    </section>
+    <img src = "https://images.squarespace-cdn.com/content/558b1305e4b0fa1db7e46ace/1449186262223-3VHPIHZRJC6QZVTNVJAA/image-asset.jpeg?content-type=image%2Fjpeg" width = "200" height = "200"
+         id = "hob">
     <section class = "section-thursday">
         <h3> <?= $albums[1] ?> </h3>
         <p>
@@ -152,7 +154,7 @@ $_SESSION["timeout"] = time();
             in Apple Music history, with over 1.02 million users.
         </p>
     </section>
-    <section class = "dawnFM">
+    <section class = "section-dawnFM">
         <h3> <?= $albums[8] ?> </h3>
         <p>
             Dawn FM is the fifth studio album by Canadian singer-songwriter The Weeknd. It was released on January 7, 2022, through XO and Republic Records. The album features narration by Jim Carrey,
